@@ -11,6 +11,7 @@ public class Main {
         int[] USB = {20, 15, 40, 15};
         int budget = 60;
 
+
         Grades.nichtAusreichendeNoten(grades);
         Grades.calculateAverage(grades);
         Grades.abrundung(grades);
