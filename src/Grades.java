@@ -8,4 +8,12 @@ public class Grades {
         }
         System.out.println();
     }
+    public static void calculateAverage(int[] grades) {
+        int sum = 0;
+        for (int grade : grades) {
+            sum += grade;
+        }
+        double average = (double) sum / grades.length;
+        System.out.printf("Average grade:" + average);
+    }
 }

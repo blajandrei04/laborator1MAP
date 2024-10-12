@@ -8,6 +8,6 @@ public class Main {
 
         int[] grades = {29,37,38,41,84,63};
         Grades.nichtAusreichendeNoten(grades);
-
+        Grades.calculateAverage(grades);
     }
 }
