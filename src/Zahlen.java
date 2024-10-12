@@ -42,4 +42,5 @@ public class Zahlen {
         int rez = sum-max;
         System.out.println("Minimal sum:" + rez);
     }
+    akcnsaksa
 }
