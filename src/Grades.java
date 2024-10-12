@@ -14,6 +14,36 @@ public class Grades {
             sum += grade;
         }
         double average = (double) sum / grades.length;
-        System.out.printf("Average grade:" + average);
+        System.out.printf("Durchsnittswert:" + average);
+        System.out.println();
+    }
+    public static void abrundung(int[] grades) {
+        System.out.print("Abgerundete Noten: ");
+        for (int grade : grades) {
+            if (grade >= 38) {
+                int round = ((grade / 5) + 1) * 5;
+                if (round - grade < 3) {
+                    grade = round;
+                }
+            }
+            System.out.print(grade + " ");
+        }
+        System.out.println();
+    }
+    public static void maximalAbgerundeteteNote(int[] grades) {
+        int maxGrade = 0;
+        for (int grade : grades) {
+            if (grade >= 38) {
+                int round = ((grade / 5) + 1) * 5;
+                if (round - grade < 3) {
+                    grade = round;
+                }
+            }
+            if (grade > maxGrade) {
+                maxGrade = grade;
+            }
+        }
+        System.out.println("Maximal abgerundete Note: " + maxGrade);
+
     }
 }
