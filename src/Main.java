@@ -10,7 +10,7 @@ public class Main {
         int[] keyboards = {40, 35, 70, 15, 45};
         int[] USB = {20, 15, 40, 15};
         int budget = 60;
-        int[] num1 = {1, 3, 0, 0, 0, 0, 0, 0, 0};
+        int[] num1 = {1, 2, 0, 0, 0, 0, 0, 0, 0};
         int[] num2 = {8, 7, 0, 0, 0, 0, 0, 0, 0};
 
 
