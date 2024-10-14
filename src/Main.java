@@ -1,6 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,6 +10,8 @@ public class Main {
         int[] keyboards = {40, 35, 70, 15, 45};
         int[] USB = {20, 15, 40, 15};
         int budget = 60;
+        int[] num1 = {1, 3, 0, 0, 0, 0, 0, 0, 0};
+        int[] num2 = {8, 7, 0, 0, 0, 0, 0, 0, 0};
 
 
         Grades.nichtAusreichendeNoten(grades);
@@ -27,5 +29,16 @@ public class Main {
         Markus.teuerUSB(USB, budget);
         Markus.maxAusgebe(keyboards, USB, budget);
 
+        int[] sum = ZahlenArrays.addition(num1, num2);
+        System.out.println("Sum: " + Arrays.toString(sum));
+
+        int[] difference = ZahlenArrays.subtraction(num1, num2);
+        System.out.println("Difference: " + Arrays.toString(difference));
+
+        int[] product = ZahlenArrays.multiplycation(num1, 3);
+        System.out.println("Product: " + Arrays.toString(product));
+
+        int[] division= ZahlenArrays.division(num1, 2);
+        System.out.println("Division/: " + Arrays.toString(division));
     }
 }
