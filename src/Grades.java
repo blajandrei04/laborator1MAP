@@ -8,17 +8,17 @@ public class Grades {
         }
         System.out.println();
     }
-    public static void calculateAverage(int[] grades) {
+    public static void durchsnitt(int[] grades) {
         int sum = 0;
         for (int grade : grades) {
             sum += grade;
         }
-        double average = (double) sum / grades.length;
+        double average = (double)sum / grades.length;
         System.out.printf("Durchsnittswert:" + average);
         System.out.println();
     }
     public static void abrundung(int[] grades) {
-        System.out.print("Abgerundete Noten: ");
+        System.out.print("Abgerundete Note: ");
         for (int grade : grades) {
             if (grade >= 38) {
                 int round = ((grade / 5) + 1) * 5;

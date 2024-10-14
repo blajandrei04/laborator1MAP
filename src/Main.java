@@ -15,7 +15,7 @@ public class Main {
 
 
         Grades.nichtAusreichendeNoten(grades);
-        Grades.calculateAverage(grades);
+        Grades.durchsnitt(grades);
         Grades.abrundung(grades);
         Grades.maximalAbgerundeteteNote(grades);
 
@@ -39,6 +39,6 @@ public class Main {
         System.out.println("Product: " + Arrays.toString(product));
 
         int[] division= ZahlenArrays.division(num1, 2);
-        System.out.println("Division/: " + Arrays.toString(division));
+        System.out.println("Division: " + Arrays.toString(division));
     }
 }

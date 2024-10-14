@@ -1,7 +1,7 @@
 public class Markus {
     public static void billingTastatur(int[] keyboards){
         int minPrice =keyboards[0];
-        for(int price : keyboards){
+        for(int price :keyboards){
             if(price < minPrice){
                 minPrice = price;
             }
