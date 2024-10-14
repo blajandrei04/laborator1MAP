@@ -43,10 +43,10 @@ public class Markus {
             }
         }
         if (maxi == -1) {
-            System.out.println("Markus kann sich beide Artikel nicht leisten");
+            System.out.println("Markus kann sich beide Gerate nicht leisten");
         }
         else {
-            System.out.println("Markus kann sich beide Artikel leisten");
+            System.out.println("Markus kann sich beide Gerate leisten");
         }
 
     }
